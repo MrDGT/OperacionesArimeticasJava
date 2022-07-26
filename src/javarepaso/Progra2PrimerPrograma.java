@@ -112,7 +112,7 @@ Scanner entrada=new Scanner (System.in);
 
       default: 
 
-        System.out.print("Numero no valido");
+        System.out.print("Este Valor no se Reconoce");
 
         
 
