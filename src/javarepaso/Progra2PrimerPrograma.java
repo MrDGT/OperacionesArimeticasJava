@@ -16,19 +16,20 @@ Scanner entrada=new Scanner (System.in);
 
    int opcion; 
 
-    System.out.println("Bienvenidos!");
+    System.out.println("Saludos a Todos Ustedes!");
 
     System.out.println("Operadores Aritméticos");
+System.out.println("A continuacion se detallan operaciones a ejecutar");
 
     System.out.println("1.Sumar enteros");
 
     System.out.println("2.Restar enteros");
 
-    System.out.println("3.multiplicar enteros");
+    System.out.println("3.Multiplicar enteros");
 
     System.out.println("4.Dividir enteros");
 
-    System.out.println("Ingrese la opcion que desea elaborar: ");
+    System.out.println("Escoja que opcion Arimetica desea realizar: ");
 
     opcion=entrada.nextInt();
 
@@ -40,17 +41,17 @@ Scanner entrada=new Scanner (System.in);
 
       case 1:
 
-        int val1, val2, suma;
+        int num1, num2, suma;
 
         System.out.println("Ingrese el primer valor: ");
 
-        val1=entrada.nextInt();
+        num1=entrada.nextInt();
 
         System.out.println("Ingrese el segundo valor: ");
 
-        val2=entrada.nextInt();
+        num2=entrada.nextInt();
 
-        suma=val1+val2;
+        suma=num1+num2;
 
         System.out.println("El total de la suma es: "+suma);
 
@@ -58,17 +59,17 @@ Scanner entrada=new Scanner (System.in);
 
       case 2: 
 
-        int val11,val22,resta;
+        int num11,num22,resta;
 
          System.out.println("Ingrese el primer valor: ");
 
-        val1=entrada.nextInt();
+        num1=entrada.nextInt();
 
         System.out.println("Ingrese el segundo valor: ");
 
-        val2=entrada.nextInt();
+        num2=entrada.nextInt();
 
-        resta=val1-val2;
+        resta=num1-num2;
 
          System.out.println("El total de la resta es: "+resta);
 
@@ -76,17 +77,17 @@ Scanner entrada=new Scanner (System.in);
 
       case 3:
 
-        int val31,val32,multi;
+        int num31,num32,multi;
 
          System.out.println("Ingrese el primer valor: ");
 
-        val1=entrada.nextInt();
+        num1=entrada.nextInt();
 
         System.out.println("Ingrese el segundo valor: ");
 
-        val2=entrada.nextInt();
+        num2=entrada.nextInt();
 
-        multi=val1*val2;
+        multi=num1*num2;
 
          System.out.println("El total de la multiplicacion es: "+multi);
 
@@ -94,17 +95,17 @@ Scanner entrada=new Scanner (System.in);
 
       case 4:
 
-        double val41,val42,div;
+        double num41,num42,div;
 
          System.out.println("Ingrese el primer valor: ");
 
-        val1=entrada.nextInt();
+        num1=entrada.nextInt();
 
         System.out.println("Ingrese el segundo valor: ");
 
-        val2=entrada.nextInt();
+        num2=entrada.nextInt();
 
-        div=val1/val2;
+        div=num1/num2;
 
          System.out.println("El total de la division es: "+div);
 
